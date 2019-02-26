@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+  </head>
+  <body>
+    <div class="container">
+      <form id="fav_form" class="jumbotron" action="index.html" method="post">
+        <label for="favorite_thing">Please put your favorite thing here:</label>
+        <input id="favorite_thing" type="text" value="">
+        <button id="add_btn" type="button" name="button">Add</button>
+        <button type="submit" name="button">Submit</button>
+      </form>
+      <form id="form-result">
+          <p>Your Favorite Items:</p>
+          <ul id="array_view"></ul>
+      </form>
+    </div>
+  </body>
+</html>
